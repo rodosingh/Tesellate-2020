@@ -8,6 +8,8 @@
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/box_fractal.png)
 # Bransley-Fern(version 1)
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/bransley_fern_realistic.png)
+# Bransley-Fern(version 2)
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/bransley_fern.png)
 # Cross2
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/cross2.png)
 # Crystal
