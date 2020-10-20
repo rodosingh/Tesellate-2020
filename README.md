@@ -1,7 +1,19 @@
 U are going to see some beatiful patterns which are mostly inspired from natures' art like branches, snowflake design, etc and some from mathematical artform.
 And how we can construct them using very simple algorithm is just another exciting part of this demonstrstion. 
 Let's get started!
+***The first and the second one are very special and are the best creations for us.***
+# Math Sea-Hydra
+> ramyak fill this part!!
 
+[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/hydra.py)
+
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/sea_hydra.png)
+# Tupper's self referential formula.
+> ramyak fill this part!!
+
+[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/tesellate.py)
+
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/tesellate.png)
 # Fractals 
 ***The artform which we see everyday (in nature) but don't know what's the essence and what specific pattern it follows.***
 
@@ -311,3 +323,5 @@ angle = 90
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern2.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern2.png)
+
+Thank you! for being with us so long. 👏🙌😊 
