@@ -1,5 +1,19 @@
 # fractal plant
+from turtle import *
 
+# function to create the string according to which turtle would run!
+def create_l_system(iters, axiom, rules):
+    start_string = axiom
+    if iters == 0:
+        return axiom
+    end_string = ""
+    for _ in range(iters):
+        end_string = "".join(rules[i] if i in rules else i for i in start_string)
+        start_string = end_string
+
+    return end_string
+
+# draw along the above string
 def draw_l_system_fp(instructions, angle, distance):
     lst = []
     lst1 = []
@@ -24,7 +38,7 @@ def draw_l_system_fp(instructions, angle, distance):
             lst1.pop()
             
 
-
+# function to execute the pattern
 def main_fp(iterations, axiom, rules, angle, length=5.5, size=1, y_offset=-600,
         x_offset=0, offset_angle=0, width=3000, height=3000):
 
