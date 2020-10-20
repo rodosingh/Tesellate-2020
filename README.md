@@ -279,27 +279,35 @@ angle = 90
 # Some more interesting patterns for you!
 ## Vibrating-Sphere
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/vibrate_circle.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/vibrating_sphere.png)
 ## Binary tree
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/binary_tree.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/binary_tree.png)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern2.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern_2.png)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern6.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern6.png)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern5.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern5.png)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern4.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern4.png)
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern4_1.png)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern3.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern3.png)
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern3_1.png)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern2.py)
+
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/pattern2.png)
