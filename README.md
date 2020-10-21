@@ -3,13 +3,43 @@ And how we can construct them using very simple algorithm is just another exciti
 Let's get started!
 ***The first and the second one are very special and are the best creations for us.***
 # Math Sea-Hydra
-> ramyak fill this part!!
+This plot is that of a single equation with two parameter. Although it looks like a hydra because of limitations of plotter, the graph is actually that of a rose. It was devised by **Paul Nylander**. You can find a interactive version of this Nylander’s rose [here](https://demonstrations.wolfram.com/ARoseForValentinesDay/).
+
+Sources: 
+
+- [Nylander’s website](http://www.bugman123.com/Math/index.html)
+
+- [Zhuanlan’s website](https://zhuanlan.zhihu.com/p/93160646)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/hydra.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/sea_hydra.png)
 # Tupper's self referential formula.
-> ramyak fill this part!!
+Although at first glance this may not seem anything special. What is really special is the way the above image is obtained. This is the set of points that satisfy the following equation in (x,y) plane:
+
+> ![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7B2%7D%3C%5Cbigg%5Clfloor%20mod%5Cbigg%28%5Cbigg%5Clfloor%20%5Cfrac%7By%7D%7B17%7D%5Cbigg%5Crfloor2%5E%7B-17%5Clfloor%20x%5Crfloor-mod%28%5Clfloor%20y%5Crfloor%2C%2017%29%7D%2C%202%5Cbigg%29%5Cbigg%5Crfloor)
+
+This is the **Tupper's self-referential formula** which visually represents itself when graphed at a specific location in the (x, y) plane. Moreover, if one graphs the set of points (x, y) in 0 ≤ x < 106 and k ≤ y < k + 17 for carefully chosen k than graph can represent any bitmap of 106*17 dimensions in particular **Tessallate 20 with the IISER Kolkata logo** in our case.
+One cheat that we have done here is the method for finding "k". The k can be obtained by writing the string of 0’s and 1’s taken vertically in the bitmap to be plotted converted to decimal and then multiplies by 17.
+
+For this specific example, k is the humongous number:
+
+```math
+k = 67902954172998279779148307035748543875626596626715618561774187298250934363549920526861826892045775471523420051461059352025730300728958258871827716521787586712381787510119167276708826565795256746434934552536649167561691076324207650135136161187337977520439136681142558385669897289470014091418155046364284809275257284325238561696967838276454959424074770534470832345336843136842298839488031465819970706806272288559418337139408254938926081268534150613103890536180137166904957677964324617241882919757702991732941427976984898637824
+```
+
+One can use the following [link](https://keelyhill.github.io/tuppers-formula/) to play with other patterns.
+
+Also to print the self-referential formula of **Tupper's** itself take k as follows:
+```math
+k = 960939379918958884971672962127852754715004339660129306651505519271702802395266424689642842174350718121267153782770623355993237280874144307891325963941337723487857735749823926629715517173716995165232890538221612403238855866184013235585136048828693337902491454229288667081096184496091705183454067827731551705405381627380967602565625016981482083418783163849115590225610003652351370343874461848378737238198224849863465033159410054974700593138339226497249461751545728366702369745461014655997933798537483143786841806593422227898388722980000748404719
+```
+
+Sources: 
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula)
+
+- [Numberphile (youtube)](https://www.youtube.com/watch?v=_s5RFgd59ao)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/tesellate.py)
 
@@ -54,6 +84,15 @@ rules = {"X":"X+YF+", "Y":"-FX-Y"}
 iterations = 15 # TOP: 15
 angle = 90
 ```
+
+A dragon curve is a recursive nonintersecting curve whose name derives from its resemblance to a certain mythical creature. It was first investigated by NASA physicists **John Heighway**, **Bruce Banks**, and **William Harter**. It can be construed iteratively by starting from a base segment, replacing each segment by 2 segments with a right angle and with a rotation of 45° alternatively to the right and to the left. You can find an animated video of the dragon curve in the [numberphile video](https://www.youtube.com/watch?v=NajQEiKFom4).
+
+Sources:
+
+- [Numberphile (youtube)](https://www.youtube.com/watch?v=wCyC-K_PnRY)
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Dragon_curve)
+
 Code can be found [here](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/3_dragon_curve.py)
 
 ![Curve bla ](https://github.com/rodosingh/Tesellate-2020/blob/main/32-segment-curve.png)
@@ -66,6 +105,14 @@ rules = {"F":"+F--F+"}
 iterations = 16 # TOP: 16
 angle = 45
 ```
+The Lévy C curve is a self similar fractal curve. You can find an animated video of its iteration [here](https://www.youtube.com/watch?v=iG17gOKlx14). Not only is its shape breathtaking, it has important mathematical properties. It belongs to the family of **Koch curves** which were one of the earliest fractals to be described.
+
+Sources: 
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Lévy_C_curve)
+
+- [Online Lévy curve generator](https://onlinemathtools.com/generate-levy-c-curve)
+
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/levy_c_curve.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/Levy_c_curve.png)
