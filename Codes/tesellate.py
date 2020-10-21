@@ -1,4 +1,5 @@
-# pip install tupper
+# Install tupper library...
+#pip install tupper
 
 # import this class StringPlotter
 from tupper import StringPlotter
