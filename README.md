@@ -47,7 +47,16 @@ Sources:
 # Fractals 
 ***The artform which we see everyday (in nature) but don't know what's the essence and what specific pattern it follows.***
 
-Fractals are built with very complex pattern and they allow you to zoom in forever! It is basically a geometric figure which shows the same characteristics no matter how much you zoom in.
+Fractals are built with very complex pattern and they allow you to zoom in forever! It is basically a geometric figure which shows the same characteristics no matter how much you zoom in. They are common in nature and are found nearly everywhere. An example is broccoli. Every branch of broccoli looks just like its parent stalk. The surface of the lining of your lungs has a fractal pattern that allows for more oxygen to be absorbed. Such complex real-world processes can be expressed in equations through fractal geometry. Even to the everyday person, fractals are generally neat to look at even if you don't understand what a fractal is. But to a mathematician, it is a neat, neat subject area.
+
+**Why are fractals important?**
+
+- Fractals help us study and understand important scientific concepts, such as the way bacteria grow, patterns in freezing water (snowflakes) and brain waves, tree branches, clouds, the scattering of stars, waves on the sea, blossoming petals, or river tributaries, for example. Their formulas have made possible many scientific breakthroughs. Wireless cell phone antennas use a fractal pattern to pick up the signals better, and pick up a wider range of signals, rather than a simple antenna. Anything with a rhythm or pattern has a chance of being very fractal-like.
+
+- Also these involve imaginary components in the unreal dimensions of i, j, k (square root of negative one, which cannot exist in the physical plane). What the fractal we see in art and in nature actually is is a projection of the invisible and intangible fractal itself. This points to the fact that natural phenomena are the projection on the physical plane (4 dimensions actually!) of an underlying reality which is at heart complex. It carries the philosophical meaning that the foundation of our observed reality is a multiple- and higher-dimensional underlying reality in a mathematical realm, including unreal components. An example of this is differential calculus, where the solutions for mundane equations very often invoke transcendental numbers like ![](https://latex.codecogs.com/gif.latex?%5Cpi) (3.14159...) and e (2.71828...), or even complex numbers involving i (![](https://latex.codecogs.com/gif.latex?%3D%20%5Csqrt%20-1)). Though the equations seem to involve "imaginary" numbers, in fact, they describe electromagnetic waves and many other real phenomena, where a component of the vibration is in another dimension at right angles to what we call physical reality.
+
+****Originally the L-systems were devised to provide a formal description of the development of such simple multicellular organisms, and to illustrate the neighbourhood relationships between plant cells. Later on, this system was extended to describe higher plants and complex branching structures.**** - [Wiki](https://en.wikipedia.org/wiki/L-system#:~:text=Originally%20the%20L%2Dsystems%20were,plants%20and%20complex%20branching%20structures.)
+
 A rigorous definition:
 "A fractal is an object or quantity that displays self-similarity, in a somewhat technical sense, on all scales. The object need not exhibit exactly the same structure at all scales, but the same "type" of structures must appear on all scales."-[Math-World](http://mathworld.wolfram.com/Fractal.html)
 
@@ -184,18 +193,19 @@ yn + 1 = 0.26 xn + 0.24 yn + 0.44.
 ```
 This coordinate transformation is chosen 7% of the time and maps any point inside the leaflet (or pinna) represented by the blue triangle to a point inside the alternating corresponding triangle across the stem (without flipping it).
 
-The first coordinate transformation draws the stem. The second generates successive copies of the stem and bottom fronds to make the complete fern. The third draws the bottom frond on the left. The fourth draws the bottom frond on the right. The recursive nature of the IFS guarantees that the whole is a larger replica of each frond. Note that the complete fern is within the range −2.1820 < x < 2.6558 and 0 ≤ y < 9.9983.
+The first coordinate transformation draws the stem. The second generates successive copies of the stem and bottom fronds to make the complete fern. The third draws the bottom frond on the left. The fourth draws the bottom frond on the right. The recursive nature of the  [iterated function system](https://en.wikipedia.org/wiki/Iterated_function_system) (IFS) guarantees that the whole is a larger replica of each frond. Note that the complete fern is within the range −2.1820 < x < 2.6558 and 0 ≤ y < 9.9983.
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/bransley_fern.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/bransley_fern.png)
 
 ### Mandelbrot set
+Mandelbrot set is important for chaos theory.
 
-Mandelbrot set can be defined as a set of complex numbers which are generated by repeating the following equation again and again —
+It can be defined as a set of complex numbers which are generated by repeating the following equation again and again —
 > Z<sub>n+1</sub> = Z<sub>n</sub>*Z<sub>n</sub> + C
 
-To create a Mandelbrot fractal we repeat the above equation and vary C simultaneously within a box of complex plane: (-2, 1)x(-2, 1), till the absolute value or the magnitude of Z exceeds or equals to 4.
+To create this we repeat the above equation and vary C simultaneously within a box of complex plane: (-2, 1)x(-2, 1), till the absolute value or the magnitude of Z exceeds or equals to 4.
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/mandelbrot.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/mandelbrot.png)
@@ -208,6 +218,8 @@ A Julia fractal can be defined as a subset of Mandelbrot fractal. While generati
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/julia.png)
 
 ### Cantor set
+A Cantor set is a closed set in which every point is an accumulation point is also called a perfect set in topology, while a closed subset of the interval with no interior points is nowhere dense in the interval. Every point of the Cantor set is also an accumulation point of the complement of the Cantor set. - [Wiki](https://en.wikipedia.org/wiki/Cantor_set#:~:text=A%20closed%20set%20in%20which,complement%20of%20the%20Cantor%20set.)
+
 ```python
 # Cantor set
 
