@@ -1,6 +1,7 @@
 U are going to see some beatiful patterns which are mostly inspired from natures' art like branches, snowflake design, etc and some from mathematical artform.
 And how we can construct them using very simple algorithm is just another exciting part of this demonstrstion. 
 Let's get started!
+
 ***The first and the second one are very special and are the best creations for us.***
 # Math Sea-Hydra
 This plot is that of a single equation with two parameter. Although it looks like a hydra because of limitations of plotter, the graph is actually that of a rose. It was devised by **Paul Nylander**. You can find a interactive version of this Nylander’s rose [here](https://demonstrations.wolfram.com/ARoseForValentinesDay/).
@@ -238,8 +239,9 @@ iterations = 12 # TOP: 6
 angle = 20
 ```
 
-[Code]()
-![]()
+[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/dense_bushes.py)
+
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/dense_bush.png)
 
 ### Cantor set
 A Cantor set is a closed set in which every point is an accumulation point is also called a perfect set in topology, while a closed subset of the interval with no interior points is nowhere dense in the interval. Every point of the Cantor set is also an accumulation point of the complement of the Cantor set. - [Wiki](https://en.wikipedia.org/wiki/Cantor_set#:~:text=A%20closed%20set%20in%20which,complement%20of%20the%20Cantor%20set.)
@@ -385,9 +387,9 @@ iterations = 4 # TOP: 6
 angle = 22.5
 ```
 
-[Code]()
+[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/thin_bushes.py)
 
-![]()
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/Thin_bush.png)
 
 ### L-system Bush (Version 3)
 ```python3
@@ -398,9 +400,9 @@ rules = {"X":"X[-FFF][+FFF]FX", "Y":"YFX[+Y][-Y]"}
 iterations = 6 # TOP: 6
 angle = 25.7
 ```
-[Code]()
+[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/bushes.py)
 
-![]()
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/L_bushes.png)
 
 # Some more interesting patterns for you!
 ## Vibrating-Sphere
