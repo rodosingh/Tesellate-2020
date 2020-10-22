@@ -216,11 +216,35 @@ A Julia fractal can be defined as a subset of Mandelbrot fractal. While generati
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/julia.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/julia.png)
+### Fractal Tree
+```python3
+# let's print the pattern
+axiom = "X"
+rules = {"X":"F+[[X]-X]-F[-FX]+X", "F":"FF"}
+iterations = 6
+angle = 25
+```
+[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/fractal_plant.py)
+
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/fractal-pattern.png)
+
+### L-system Bush
+```python3
+# Dense Bush
+
+axiom = "VZFFF"
+rules = {"V":"[+++W][---W]YV", "W":"+X[-W]Z", "X":"-W[+X]Z", "Y":"YZ", "Z":"[-FFF][+FFF]F"}
+iterations = 12 # TOP: 6
+angle = 20
+```
+
+[Code]()
+![]()
 
 ### Cantor set
 A Cantor set is a closed set in which every point is an accumulation point is also called a perfect set in topology, while a closed subset of the interval with no interior points is nowhere dense in the interval. Every point of the Cantor set is also an accumulation point of the complement of the Cantor set. - [Wiki](https://en.wikipedia.org/wiki/Cantor_set#:~:text=A%20closed%20set%20in%20which,complement%20of%20the%20Cantor%20set.)
 
-```python
+```python3
 # Cantor set
 
 axiom = "A"
@@ -254,17 +278,6 @@ angle = 90
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/crystal.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/crystal.png)
-### Fractal Tree
-```python3
-# let's print the pattern
-axiom = "X"
-rules = {"X":"F+[[X]-X]-F[-FX]+X", "F":"FF"}
-iterations = 6
-angle = 25
-```
-[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/fractal_plant.py)
-
-![](https://github.com/rodosingh/Tesellate-2020/blob/main/fractal-pattern.png)
 ### Hilbert Curve II
 ```python3
 ## Hilbert curve II
@@ -347,15 +360,54 @@ angle = 90
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/tiles.png)
 
+
+
+### Binary tree
+```python3
+# Binary tree
+axiom = "0"
+rules = {"1":"11", "0":"1[+0]-0"}
+iterations = 10
+angle = 45
+```
+
+[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/binary_tree.py)
+
+![](https://github.com/rodosingh/Tesellate-2020/blob/main/binary_tree.png)
+
+### L-system Bush (Version 2)
+```python3
+# Thin Bush
+
+axiom = "F"
+rules = {"F":"FF+[+F-F-F]-[-F+F+F]"}
+iterations = 4 # TOP: 6
+angle = 22.5
+```
+
+[Code]()
+
+![]()
+
+### L-system Bush (Version 3)
+```python3
+# Bushes
+
+axiom = "Y"
+rules = {"X":"X[-FFF][+FFF]FX", "Y":"YFX[+Y][-Y]"}
+iterations = 6 # TOP: 6
+angle = 25.7
+```
+[Code]()
+
+![]()
+
 # Some more interesting patterns for you!
 ## Vibrating-Sphere
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/vibrate_circle.py)
 
 ![](https://github.com/rodosingh/Tesellate-2020/blob/main/vibrating_sphere.png)
-## Binary tree
-[Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/binary_tree.py)
 
-![](https://github.com/rodosingh/Tesellate-2020/blob/main/binary_tree.png)
 
 [Code](https://github.com/rodosingh/Tesellate-2020/blob/main/Codes/pattern2.py)
 
