@@ -57,8 +57,6 @@ Fractals are built with very complex pattern and they allow you to zoom in forev
 
 - Also these involve imaginary components in the unreal dimensions of i, j, k (![](https://latex.codecogs.com/gif.latex?%3D%20%5Csqrt%20-1), which cannot exist in the physical plane). What the fractal we see in art and in nature actually is is a projection of the invisible and intangible fractal itself. This points to the fact that natural phenomena are the projection on the physical plane (4 dimensions actually!) of an underlying reality which is at heart complex. It carries the philosophical meaning that the foundation of our observed reality is a multiple- and higher-dimensional underlying reality in a mathematical realm, including unreal components. An example of this is differential calculus, where the solutions for mundane equations very often invoke transcendental numbers like ![](https://latex.codecogs.com/gif.latex?%5Cpi) (3.14159...) and e (2.71828...), or even complex numbers involving i (![](https://latex.codecogs.com/gif.latex?%3D%20%5Csqrt%20-1)). Though the equations seem to involve "imaginary" numbers, in fact, they describe electromagnetic waves and many other real phenomena, where a component of the vibration is in another dimension at right angles to what we call physical reality.
 
-****Originally the L-systems were devised to provide a formal description of the development of such simple multicellular organisms, and to illustrate the neighbourhood relationships between plant cells. Later on, this system was extended to describe higher plants and complex branching structures.**** - [Wiki](https://en.wikipedia.org/wiki/L-system#:~:text=Originally%20the%20L%2Dsystems%20were,plants%20and%20complex%20branching%20structures.)
-
 A rigorous definition:
 "A fractal is an object or quantity that displays self-similarity, in a somewhat technical sense, on all scales. The object need not exhibit exactly the same structure at all scales, but the same "type" of structures must appear on all scales."-[Math-World](http://mathworld.wolfram.com/Fractal.html)
 
@@ -67,6 +65,8 @@ Fractals are typically hard to draw, because there is a concept which is deeply 
 ## L-systems
 An L-System is a way of representing recursive structures (such as fractals) as a string of characters, this is done by rewriting the string over and over. Again, the formal definition is the following:
 - A Lindenmayer system, also known as an L-system, is a string rewriting system that can be used to generate fractals with dimension between 1 and 2. - [Math World](http://mathworld.wolfram.com/LindenmayerSystem.html)
+
+*Originally the L-systems were devised to provide a formal description of the development of such simple multicellular organisms, and to illustrate the neighbourhood relationships between plant cells. Later on, this system was extended to describe higher plants and complex branching structures.* - [Wiki](https://en.wikipedia.org/wiki/L-system#:~:text=Originally%20the%20L%2Dsystems%20were,plants%20and%20complex%20branching%20structures.)
 
 Once we understand what an L-System is we can produce recursive structures, but before we are able to do that we need to understand what are the pieces we need. Every L-System has:
 * An alphabet: The set of symbols the L-System is going to use.
